@@ -1,0 +1,12 @@
+[Project]
+FileName=D:\kuliah\tekkom\progaramcuy\sumber.dp
+Name=sumber
+MainUnit=D:\kuliah\tekkom\progaramcuy\Untitled2.pas
+UnitCount=1
+ResFiles=D:\kuliah\tekkom\progaramcuy\rsrc.rc
+NoConsole=0
+IsDll=0
+Icon=C:\Dev-Pas\Icon\Mainicon.ico
+[Unit1]
+FileName=D:\kuliah\tekkom\progaramcuy\Untitled2.pas
+FileTime=1291689665

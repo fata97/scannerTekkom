@@ -1,0 +1,656 @@
+        program : Identifier / Keyword
+       Untitled : Identifier / Variabel
+              ; : Delimiter
+           uses : Identifier / Keyword
+            crt : Identifier / Variabel
+              ; : Delimiter
+            var : Identifier / Keyword
+          ulang : Identifier / Variabel
+              : : Delimiter
+           char : Identifier / Keyword
+              ; : Delimiter
+           menu : Identifier / Variabel
+              : : Delimiter
+        integer : Identifier / Keyword
+              ; : Delimiter
+         volume : Identifier / Variabel
+              , : Delimiter
+              s : Identifier / Variabel
+              , : Delimiter
+      permukaan : Identifier / Variabel
+              , : Delimiter
+              p : Identifier / Variabel
+              , : Delimiter
+              l : Identifier / Variabel
+              , : Delimiter
+              t : Identifier / Variabel
+              , : Delimiter
+              s : Identifier / Variabel
+              1 : Konstanta / Integer
+              , : Delimiter
+              s : Identifier / Variabel
+              2 : Konstanta / Integer
+              , : Delimiter
+              s : Identifier / Variabel
+              3 : Konstanta / Integer
+              , : Delimiter
+              r : Identifier / Variabel
+              : : Delimiter
+           real : Identifier / Keyword
+              ; : Delimiter
+          begin : Identifier / Keyword
+         repeat : Identifier / Keyword
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+              7 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'========================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+              8 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'MENU HITUNG BANGUN RUANG' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+              9 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'========================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             10 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+     '1. KUBUS' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             11 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+     '2. BALOK' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             12 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'3. PRISMA SEGITIGA' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             13 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+      '4. BOLA' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             14 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'========================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         gotoxy : Identifier / Variabel
+              ( : Delimiter
+             25 : Konstanta / Integer
+              , : Delimiter
+             15 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Pilih menu berapa? ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+           menu : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         clrscr : Identifier / Variabel
+              ; : Delimiter
+             if : Identifier / Keyword
+              ( : Delimiter
+           menu : Identifier / Variabel
+              1 : Konstanta / Integer
+              ) : Delimiter
+           then : Identifier / Keyword
+          begin : Identifier / Keyword
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'MENU HITUNG KUBUS' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan sisi (satuan cm) : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              s : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              s : Identifier / Variabel
+              * : Operator
+              * : Operator
+              ; : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              6 : Konstanta / Integer
+              * : Operator
+              * : Operator
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        'HASIL' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        '-----' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Volume Kubus         : ' : Konstanta
+              , : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^3' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Luas Permukaan Kubus : ' : Konstanta
+              , : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^2' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'--------------------------' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+            end : Identifier / Keyword
+           else : Identifier / Keyword
+             if : Identifier / Keyword
+              ( : Delimiter
+           menu : Identifier / Variabel
+              2 : Konstanta / Integer
+              ) : Delimiter
+           then : Identifier / Keyword
+          begin : Identifier / Keyword
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'MENU HITUNG BALOK' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan panjang (satuan cm) : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              p : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan lebar (satuan cm)   : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              l : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan tinggi (satuan cm)  : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              t : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              p : Identifier / Variabel
+              * : Operator
+              * : Operator
+              ; : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              2 : Konstanta / Integer
+              * : Operator
+              ( : Delimiter
+              p : Identifier / Variabel
+              * : Operator
+              + : Operator
+              * : Operator
+              + : Operator
+              * : Operator
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        'HASIL' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        '-----' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Volume Balok         : ' : Konstanta
+              , : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^3' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Luas Permukaan Balok : ' : Konstanta
+              , : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^2' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'--------------------------' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+            end : Identifier / Keyword
+           else : Identifier / Keyword
+             if : Identifier / Keyword
+              ( : Delimiter
+           menu : Identifier / Variabel
+              3 : Konstanta / Integer
+              ) : Delimiter
+           then : Identifier / Keyword
+          begin : Identifier / Keyword
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'===========================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'MENU HITUNG PRISMA SEGITIGA' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'===========================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan sisi 1 alas (satuan cm)   : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              s : Identifier / Variabel
+              1 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan sisi 2 alas (satuan cm)   : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              s : Identifier / Variabel
+              2 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan sisi 3 alas (satuan cm)   : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              s : Identifier / Variabel
+              3 : Konstanta / Integer
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan tinggi prisma (satuan cm) : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              t : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              5 : Konstanta / Integer
+              * : Operator
+              1 : Konstanta / Integer
+              * : Operator
+              2 : Konstanta / Integer
+              * : Operator
+              ; : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              ( : Delimiter
+              2 : Konstanta / Integer
+              * : Operator
+              1 : Konstanta / Integer
+              * : Operator
+              2 : Konstanta / Integer
+              ) : Delimiter
+              + : Operator
+              ( : Delimiter
+              s : Identifier / Variabel
+              1 : Konstanta / Integer
+              * : Operator
+              + : Operator
+              2 : Konstanta / Integer
+              * : Operator
+              + : Operator
+              3 : Konstanta / Integer
+              * : Operator
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        'HASIL' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        '-----' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Volume Prisma Segitiga         : ' : Konstanta
+              , : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^3' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Luas Permukaan Prisma Segitiga : ' : Konstanta
+              , : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^2' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'--------------------------' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+            end : Identifier / Keyword
+           else : Identifier / Keyword
+          begin : Identifier / Keyword
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'MENU HITUNG BOLA' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'=================' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Masukkan Jari-Jari (satuan cm) : ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+              r : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              ( : Delimiter
+              4 : Konstanta / Integer
+              / : Operator
+              ) : Delimiter
+              * : Operator
+              i : Identifier / Variabel
+              * : Operator
+              * : Operator
+              * : Operator
+              ; : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              4 : Konstanta / Integer
+              * : Operator
+              i : Identifier / Variabel
+              * : Operator
+              * : Operator
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        'HASIL' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+        '-----' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Volume Bola         : ' : Konstanta
+              , : Delimiter
+         volume : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^3' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'Luas Permukaan Bola : ' : Konstanta
+              , : Delimiter
+      permukaan : Identifier / Variabel
+              : : Delimiter
+              0 : Konstanta / Integer
+              : : Delimiter
+              2 : Konstanta / Integer
+              , : Delimiter
+        ' cm^2' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+'--------------------------' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+            end : Identifier / Keyword
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+        writeln : Identifier / Keyword
+              ( : Delimiter
+             '' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+          write : Identifier / Keyword
+              ( : Delimiter
+'Kembali ke menu awal (y/n)? ' : Konstanta
+              ) : Delimiter
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ( : Delimiter
+          ulang : Identifier / Variabel
+              ) : Delimiter
+              ; : Delimiter
+         clrscr : Identifier / Variabel
+              ; : Delimiter
+          until : Identifier / Keyword
+          ulang : Identifier / Variabel
+            'n' : Konstanta
+              ; : Delimiter
+         readln : Identifier / Keyword
+              ; : Delimiter
+            end : Identifier / Keyword
